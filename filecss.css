@@ -1,0 +1,212 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{ font-family: sans-serif; 
+	background-color: #253135;
+}
+
+div{ box-sizing: border-box; }
+
+.navbar{
+	width: 100%;
+	background-color: #0c1b1f;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-bottom: 100px;
+	margin-top: 50px;
+}
+
+.nav-menu{
+	width: 100%;
+	align-items: center;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+.nav-menu li a {
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+}
+
+.nav-menu li a:hover {
+	font-size: 20px;
+	color: white;text-decoration: underline;
+	transition: 0.3s;
+}
+.ukuranlogonavbar{
+	width: 148px;
+	height: 130px;
+}
+
+
+
+.garis{
+	margin-left: 10px;
+
+}
+.opening{
+	display: flex;
+}
+
+.slide{
+	margin-left: 25px;
+	width: 3px;
+	height: 630px;
+}
+
+.rectangle{
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	width: 1248px;
+	height: 30px;
+
+}
+
+
+
+.gambarbackgroundopening{
+	width: 1148px;
+	height: 630px;
+}
+.gambar-opening{
+	
+	margin-top: 0px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+.teks-opening{
+	position: relative;
+	text-align: center;
+}
+
+
+
+
+.gambarmenu{
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	position: relative;
+}
+.gambar-container {
+    position: relative;
+}
+.gambar-2, .gambar-3, .gambar-4 {
+    position: absolute;
+    top: 50%;
+    width: 400px; /* Sesuaikan lebar sesuai kebutuhan */
+    height: 300px; /* Sesuaikan tinggi sesuai kebutuhan */
+    padding-top: 300px;
+}
+.gambar-2 {
+    left: 5%;
+    transform: translate(0, -115%);
+
+.gambar-4 {
+    right: 0;
+    transform: translate(0, -115%);
+}
+.teks-menu{
+	position: relative;
+	text-align: center;
+}
+.teks-menu p{
+	font-family: sans-serif;
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	display: flex;
+	font-size: 60px;
+}
+.menuclick{
+	display: flex;
+	justify-content: space-around;
+	color: white;
+	font-size: 30px;
+	font-family: sans-serif;
+	line-height: 1.2;
+	text-align: center;
+	padding-bottom: 20px;
+	padding-left: 78px;
+
+}
+.menuclick .menuclick{
+	width: 20%;
+}
+.menutempotext{
+	display: flex;
+	justify-content: space-around;
+}
+.menuclicktext h2{
+	color: white;
+	font-size: 28px;
+	font-family: sans-serif;
+	line-height: 1.2;
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+
+
+.address{
+	text-align: center;
+	color: mintcream;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.address1{
+	text-align: center;
+}
+.address1 li a:hover {
+	font-size: 15px;
+	color: skyblue;text-decoration: underline;
+	transition: 0.3s;
+}
+
+
+
+.gambarcontact{
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+
+
+
+.contact{
+	text-align: center;
+	color: mintcream;
+}
+.contact h1{
+	font-size: 35px;
+}
+
+
+
+
+.videoresult{
+	text-align: center;
+	color: mintcream;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.videosetting{
+	transform: translate(12%, -12%);
+}
+
+.footer{
+	
+}
